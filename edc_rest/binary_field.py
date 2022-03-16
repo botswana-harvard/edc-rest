@@ -1,7 +1,7 @@
 from base64 import b64encode, b64decode
 
 from django.utils.encoding import force_bytes
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext as _
 
 from rest_framework.fields import Field
 from rest_framework.fields import empty
